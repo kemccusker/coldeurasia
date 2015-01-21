@@ -129,11 +129,18 @@
 %Department of Atmospheric Sciences, University of
 %Washington, Seattle, WA 98135, USA. }
 
+\authoraddr{J. C. Fyfe,
+Canadian Centre for Climate Modelling and Analysis, 
+Victoria, BC V8V 1B5, Canada.}
+
 \authoraddr{K. E. McCusker,
 School of Earth and Ocean Sciences, University of
 Victoria, Victoria, BC V8V 1B5, Canada.
 (kemccusk@uvic.ca)}
 
+\authoraddr{M. Sigmond,
+Canadian Centre for Climate Modelling and Analysis, 
+Victoria, BC V8V 1B5, Canada.}
 
 %\authoraddr{R. C. Bales,
 %Department of Hydrology and Water Resources, University of
@@ -181,12 +188,12 @@ Victoria, Victoria, BC V8V 1B5, Canada.
 % \altaffilmark will produce footnote;
 % matching \altaffiltext will appear at bottom of page.
 
-\authors{K. E. McCusker}%,\altaffilmark{1}, D. S. Battisti,\altaffilmark{2}, C. M. Bitz,\altaffilmark{2}}
+\authors{K. E. McCusker,\altaffilmark{1}, J. C. Fyfe,\altaffilmark{2}, M. Sigmond,\altaffilmark{2}}
 
 \altaffiltext{1}{School of Earth and Ocean Sciences,
 University of Victoria, Victoria, British Columbia, Canada.}
-%\altaffiltext{2}{Department of Atmospheric Sciences,
-%University of Washington, Seattle, WA, USA.}
+\altaffiltext{2}{Canadian Centre for Climate Modelling and Analysis,
+Victoria, BC, Canada.}
 
 % ----- figure options from wikibook
 % h	Place the float here, i.e., approximately at the same point it occurs in the source text (however, not exactly at the spot)
@@ -233,31 +240,42 @@ Observed Arctic sea ice loss has been implicated in the recent prevalence of ano
 
 %\section{Introduction}
 
-Internal variability in the climate system plays an important role in determining the evolution of Arctic sea-ice extent (cite Wettstein14, Swart15), contributing approximately 50\% to the magnitude of the observed trend (cite Stroeve07, Kay11). Recent reductions in Arctic sea-ice area (cite@@) have coincided with an apparent prevalence of colder wintertime surface air temperature over Eurasian land surfaces (cite@@), prompting associations to be drawn in the literature between the two observed phenomena (cite Francis12,Mori14, Kim14, Inoue12, Overland11, Liu12,Petoukhov10,Honda09,Peings13). Given that internal variability in surface air temperature (SAT) in the mid-latitudes is very large (cite Deser12) and much of the sea ice change itself is also due to internal variability, linkages drawn from observations do not tell us anything about the influence that human-induced sea-ice loss has on Eurasian SAT.
+Internal variability in the climate system plays an important role in determining the evolution of Arctic sea-ice extent (cite Wettstein14, Swart15), contributing approximately 50\% to the magnitude of the observed trend (cite Stroeve07, Kay11). Recent reductions in Arctic sea-ice area (cite@@) have coincided with an apparent prevalence of colder wintertime surface air temperature over Eurasian land surfaces (cite@@), prompting associations to be drawn in the literature between the two observed phenomena (cite Francis12,Mori14, Kim14, Inoue12, Overland11, Liu12,Petoukhov10,Honda09,Peings13). The frequency of anomalously cold Eurasian surface air temperatures (SAT) in winter is particularly sensitive to observed sea-ice loss in the Barents-Kara Seas region through Rossby wave propogation incited by increased surface heat fluxes (Peings13,Kim14,Mori14,Honda09). (@@need to say more about uncertainties in previous work@@) 
 
-Here we aim to isolate the effect of human-induced sea-ice loss on the atmosphere because i. the anthropogenic signal is theoretically identifiable and robust whereas internal variability is by definition chaotic, and ii. the anthropogenic signal will likely continue to grow, potentially emerging from the noise of internal variability. The histograms of November-December averaged sea ice area anomalies between 2002-12 and 1979-89 from two large ensembles executed with the Canadian Earth System Model version 2 (CanESM2) shown in Figure 1 highlight the clear signal of anthropogenic forcing (separation of Historical and HistoricalNat distributions) as well as the role of internal variability (spread of each distribution). 
+Distinguishing a robust Arctic sea ice -- Eurasian SAT linkage is complicated by the large internal variability in atmospheric circulation and SAT in the mid-latitudes (cite Deser12). Indeed, Honda et al. (2009), who find that BKS sea-ice loss causes late-winter Eurasian cooling in an AGCM, state that their results are significantly weakened if all integrations are included in their averaging instead of a subset. Furthermore, much of the 'forcing' in these scenarios, the observed sea ice change, is itself also due to internal variability. Thus, a critical question remains: Has human-induced sea ice loss caused colder Eurasian winter temperatures? Answering this is important because unlike intrinsic variability that is by definition chaotic, the anthropogenic signal is theoretically identifiable and meaningful for future implications, as the anthropogenic signal will continue to grow and potentially emerge from the noise of internal variability.
 
-Figure 1, which shows histograms of November-December averaged sea ice area anomalies between 2002-12 and 1979-89 from two large ensembles executed with the Canadian Earth System Model version 2 (CanESM2), shows t the clear signal of anthropogenic sea ice-
+%Our aim is to isolate the effect of human-induced sea-ice loss on the atmosphere because i. the anthropogenic signal is theoretically identifiable and robust whereas internal variability is by definition chaotic, and ii. the anthropogenic signal will likely continue to grow, potentially emerging from the noise of internal variability. 
+%The answer to this has more-direct implications for future sea-ice loss. 
+%Given that internal variability in surface air temperature (SAT) in the mid-latitudes is very large (cite Deser12) and much of the sea ice change itself is also due to internal variability, linkages drawn from observations are not able to illuminate the influence that human-induced sea-ice loss has on Eurasian SAT. % limited in their ability to provide knowledge about how human-induced sea-ice loss has influenced Eurasian SAT. %do not tell us anything about the influence that human-induced sea-ice loss has on Eurasian SAT.
+%Sea ice loss in the Barents and Kara Seas region (BKS) has been pointed to as a primary driver of anomalously cold Eurasian surface air tempuratures (SAT) through Rossby wave propagation incited by increased surface heat fluxes (Peings13,Kim14,Mori14,Honda09).
+% While associations do not imply causation, Physical mechanisms   .. well-supported by modelling ...
 
-We do this by executing two large ensembles of paired simulations (1979-89 average boundary conditions and 2001-12 average boundary conditions) with prescribed Arctic sea ice concentration (SIC) and sea surface temperature (SST) boundary conditions. One ensemble ('Variable SIC forcings') is made up of five 
+% Results
+A clear anthropogenic signal in Arctic sea ice area changes in early winter (Nov-Dec; ND) since 1979 is already evident, demonstrated by the separation of histograms in Figure 1. The histograms show ND sea ice area changes from 1979-89 to 2002-12 from 50 simulations executed in the Canadian Earth System Model v2 (CanESM2) that are forced with all historical forcings (Historical; red), and 50 simulations forced with only natural forcings (HistoricalNat; gray. See Methods). Whereas natural forcing yields nearly equal chances of sea-ice growth and sea-ice loss, including anthropogenic forcing always yields sea-ice loss even with the large spread from internal variability. Estimates of sea ice loss from satellite measurements over the same time period are shown as green (National Sea Ice Data Center; NSIDC) and blue (Hadley Centre sea ice and SST dataset v1.1; HadISST) circles on the Historical curve fit. Observations represent one potential reality out of many, and thus are not expected to fall in any particular place on the Historical distribution. The CanESM2 Historical ensemble compares favourably with the NSIDC observations, however we note that the HadISST data, which are known to have biases in shoulder seasons@@, underestimate sea-ice loss and fall within the HistoricalNat distribution. %This may have implications for previous work utilizing the HadISST dataset to study the Arctic sea ice -- Eurasian SAT connection. %  demonstrates the clear signal of anthropogenic forcing in Arctic sea ice area since 1979, as well as the large influence of internal variability in determining these changes. 
 
-Sea ice loss in the Barents and Kara Seas region (BKS) has been pointed to as a primary driver of anomalously cold Eurasian surface air tempuratures (SAT) through Rossby wave propagation incited by increased surface heat fluxes (Peings13,Kim14,Mori14,Honda09).
+Here we show the powerful and sometimes misleading effect internal variability can have on the response of Eurasian SAT to Arctic sea ice loss using two large ensembles of atmospheric general circulation model (AGCM) simulations. Pairs of simulations are executed with the associated Canadian AGCM in which past (1979-89) and present-day (2002-12) Arctic sea-ice conditions from the five Historical ensemble members that are included as part of CMIP5 (anomalies shown as red circles in Figure 1) are prescribed as boundary conditions (Methods). Annually-repeating, monthly sea-ice concentration (SIC), sea-ice thickness (SIT), and local sea surface temperature (where SIC $<$ 15\% in the present day but not the past) are prescribed and executed for 120 years each for 'past' conditions and 'present-day' conditions for each of five boundary conditions ('Individual SIC forcing' ensemble). We similarly execute five pairs of 120-year simulations, differing only in their initial conditions, with the average of the five Historical ensemble members as boundary conditions ('Average SIC forcing' ensemble) to represent the 'human-induced' forcing in which internal variability is averaged out. Thus in total, each ensemble consists of 600 years of (present - past) anomalies.
 
-Eurasian surface air temperature (SAT) is particularly sensitive to sea ice loss in the Barents and Kara Seas (BKS) region
+Figure 2a shows early winter polar SAT changes in the Individual SIC forcing ensemble (black) and in the Average SIC forcing ensemble (red) as 'uncertainty cascades' (cite Wilby10?) to illustrate the effect of variable boundary conditions versus internal variability in the response to sea-ice loss. The average of all five sets of 120-year anomalies (or 'superensemble average') is shown as the top level of each cascade. The superensemble averages of polar SAT are not statistically different from each other at just under 1.8$^\circ$C, however the effect of variable sea-ice boundary conditions is evident when comparing the range of polar SAT in the individual 120-year averages in level two between the two ensembles. The magnitude of polar SAT response in Nov-Dec is directly tied to the magnitude of sea ice loss and can be explained by the maximum in surface heat flux that occurs in these months@@
 
- While associations do not imply causation, Physical mechanisms   .. well-supported by modelling ...
-
-
-
-\section{Methods}
-
-
-
-\section{Results}
+%Each superensemble average is statistically significant, as indicated by the filled circle, at slightly under 1.8$^\circ$C. 
 
 
+% The histograms of November-December averaged sea ice area anomalies between 2002-12 and 1979-89 from two large ensembles executed with the Canadian Earth System Model version 2 (CanESM2) shown in Figure 1 highlight the clear signal of anthropogenic forcing (separation of Historical and HistoricalNat distributions) as well as the role of internal variability (spread of each distribution). 
 
-\begin{figure}[h!]
+%Figure 1, which shows histograms of November-December averaged sea ice area anomalies between 2002-12 and 1979-89 from two large ensembles executed with the Canadian Earth System Model version 2 (CanESM2), shows t the clear signal of anthropogenic sea ice-
+
+%We do this by executing two large ensembles of paired simulations (1979-89 average boundary conditions and 2001-12 average boundary conditions) with prescribed Arctic sea ice concentration (SIC) and sea surface temperature (SST) boundary conditions. One ensemble ('Variable SIC forcings') is made up of five 
+
+
+%\section{Methods}
+
+
+
+%\section{Results}
+
+
+
+\begin{figure}[t] %[h!]
   \noindent\includegraphics[width=20pc,angle=0]{fig1.pdf} \\ 
   \caption{Histograms and histogram fits of November-December averaged Arctic sea-ice area changes from the period 1979-89 to 2002-12 in the CanESM Historical (red) and HistoricalNat (gray) large ensembles (50 members each). Red markers indicate the original five Historical simulations, published as part of CMIP5 and seeds for the Historical LE, and also prescribed as boundary conditions to our 'Individual SIC forcings' AGCM simulations. Black markers are as red except for the HistoricalNat simulations. Green and blue markers show Arctic sea-ice change from two observational datasets. Filled markers indicate the present day period (2002-12) is significantly different from the past (1979-89) at the 95\% level using the Student's T test of difference between two means.
 }\label{fig:fig1}
